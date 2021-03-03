@@ -1,0 +1,21 @@
+:root {
+    color-scheme: light dark;
+}
+
+body {
+    font-family: system-ui;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    line-height: 20px;
+}
+
+button.enabled {
+    -webkit-appearance: default-button;
+}
+
+@media (prefers-color-scheme: dark) {
+    /* Dark Mode styles go here. */
+}

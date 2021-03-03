@@ -1,0 +1,10 @@
+{
+    "extension_name": {
+        "message": "Xdebug Helper Extension",
+        "description": "The display name for the extension."
+    },
+    "extension_description": {
+        "message": "Easily activate PHP debugging, profiling and tracing with this Xdebug Safari extension.",
+        "description": "Description of what the extension does."
+    }
+}

@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CC61BBD25EF884300CA6E5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC61BBC25EF884300CA6E5C /* AppDelegate.swift */; };
+		2CC61BC025EF884300CA6E5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CC61BBE25EF884300CA6E5C /* Main.storyboard */; };
+		2CC61BC225EF884300CA6E5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC61BC125EF884300CA6E5C /* ViewController.swift */; };
+		2CC61BC425EF884800CA6E5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CC61BC325EF884800CA6E5C /* Assets.xcassets */; };
+		2CC61BCB25EF884800CA6E5C /* Xdebug Helper Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2CC61BCA25EF884800CA6E5C /* Xdebug Helper Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2CC61BD025EF884800CA6E5C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CC61BCF25EF884800CA6E5C /* Cocoa.framework */; };
+		2CC61BD325EF884800CA6E5C /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC61BD225EF884800CA6E5C /* SafariWebExtensionHandler.swift */; };
+		2CC61BD625EF884800CA6E5C /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 2CC61BD525EF884800CA6E5C /* _locales */; };
+		2CC61BD825EF884800CA6E5C /* images in Resources */ = {isa = PBXBuildFile; fileRef = 2CC61BD725EF884800CA6E5C /* images */; };
+		2CC61BDA25EF884800CA6E5C /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 2CC61BD925EF884800CA6E5C /* manifest.json */; };
+		2CC61BDC25EF884800CA6E5C /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CC61BDB25EF884800CA6E5C /* background.js */; };
+		2CC61BDE25EF884800CA6E5C /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CC61BDD25EF884800CA6E5C /* content.js */; };
+		2CC61BE025EF884800CA6E5C /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 2CC61BDF25EF884800CA6E5C /* popup.html */; };
+		2CC61BE225EF884800CA6E5C /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 2CC61BE125EF884800CA6E5C /* popup.css */; };
+		2CC61BE425EF884800CA6E5C /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 2CC61BE325EF884800CA6E5C /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CC61BCC25EF884800CA6E5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CC61BB025EF884300CA6E5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CC61BC925EF884800CA6E5C;
+			remoteInfo = "Xdebug Helper Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2CC61BEC25EF884800CA6E5C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2CC61BCB25EF884800CA6E5C /* Xdebug Helper Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2CC61BB825EF884300CA6E5C /* Xdebug Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xdebug Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CC61BBB25EF884300CA6E5C /* Xdebug_Helper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Xdebug_Helper.entitlements; sourceTree = "<group>"; };
+		2CC61BBC25EF884300CA6E5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CC61BBF25EF884300CA6E5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CC61BC125EF884300CA6E5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2CC61BC325EF884800CA6E5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CC61BC525EF884800CA6E5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CC61BCA25EF884800CA6E5C /* Xdebug Helper Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Xdebug Helper Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CC61BCF25EF884800CA6E5C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2CC61BD225EF884800CA6E5C /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		2CC61BD525EF884800CA6E5C /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		2CC61BD725EF884800CA6E5C /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		2CC61BD925EF884800CA6E5C /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		2CC61BDB25EF884800CA6E5C /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		2CC61BDD25EF884800CA6E5C /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		2CC61BDF25EF884800CA6E5C /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		2CC61BE125EF884800CA6E5C /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		2CC61BE325EF884800CA6E5C /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		2CC61BE525EF884800CA6E5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CC61BE625EF884800CA6E5C /* Xdebug_Helper_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Xdebug_Helper_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CC61BB525EF884300CA6E5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC61BC725EF884800CA6E5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC61BD025EF884800CA6E5C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CC61BAF25EF884300CA6E5C = {
+			isa = PBXGroup;
+			children = (
+				2CC61BBA25EF884300CA6E5C /* Xdebug Helper */,
+				2CC61BD125EF884800CA6E5C /* Xdebug Helper Extension */,
+				2CC61BCE25EF884800CA6E5C /* Frameworks */,
+				2CC61BB925EF884300CA6E5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CC61BB925EF884300CA6E5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CC61BB825EF884300CA6E5C /* Xdebug Helper.app */,
+				2CC61BCA25EF884800CA6E5C /* Xdebug Helper Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CC61BBA25EF884300CA6E5C /* Xdebug Helper */ = {
+			isa = PBXGroup;
+			children = (
+				2CC61BBB25EF884300CA6E5C /* Xdebug_Helper.entitlements */,
+				2CC61BBC25EF884300CA6E5C /* AppDelegate.swift */,
+				2CC61BBE25EF884300CA6E5C /* Main.storyboard */,
+				2CC61BC125EF884300CA6E5C /* ViewController.swift */,
+				2CC61BC325EF884800CA6E5C /* Assets.xcassets */,
+				2CC61BC525EF884800CA6E5C /* Info.plist */,
+			);
+			path = "Xdebug Helper";
+			sourceTree = "<group>";
+		};
+		2CC61BCE25EF884800CA6E5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CC61BCF25EF884800CA6E5C /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CC61BD125EF884800CA6E5C /* Xdebug Helper Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2CC61BD225EF884800CA6E5C /* SafariWebExtensionHandler.swift */,
+				2CC61BE525EF884800CA6E5C /* Info.plist */,
+				2CC61BE625EF884800CA6E5C /* Xdebug_Helper_Extension.entitlements */,
+				2CC61BD425EF884800CA6E5C /* Resources */,
+			);
+			path = "Xdebug Helper Extension";
+			sourceTree = "<group>";
+		};
+		2CC61BD425EF884800CA6E5C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2CC61BD525EF884800CA6E5C /* _locales */,
+				2CC61BD725EF884800CA6E5C /* images */,
+				2CC61BD925EF884800CA6E5C /* manifest.json */,
+				2CC61BDB25EF884800CA6E5C /* background.js */,
+				2CC61BDD25EF884800CA6E5C /* content.js */,
+				2CC61BDF25EF884800CA6E5C /* popup.html */,
+				2CC61BE125EF884800CA6E5C /* popup.css */,
+				2CC61BE325EF884800CA6E5C /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CC61BB725EF884300CA6E5C /* Xdebug Helper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CC61BED25EF884800CA6E5C /* Build configuration list for PBXNativeTarget "Xdebug Helper" */;
+			buildPhases = (
+				2CC61BB425EF884300CA6E5C /* Sources */,
+				2CC61BB525EF884300CA6E5C /* Frameworks */,
+				2CC61BB625EF884300CA6E5C /* Resources */,
+				2CC61BEC25EF884800CA6E5C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CC61BCD25EF884800CA6E5C /* PBXTargetDependency */,
+			);
+			name = "Xdebug Helper";
+			productName = "Xdebug Helper";
+			productReference = 2CC61BB825EF884300CA6E5C /* Xdebug Helper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CC61BC925EF884800CA6E5C /* Xdebug Helper Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CC61BE925EF884800CA6E5C /* Build configuration list for PBXNativeTarget "Xdebug Helper Extension" */;
+			buildPhases = (
+				2CC61BC625EF884800CA6E5C /* Sources */,
+				2CC61BC725EF884800CA6E5C /* Frameworks */,
+				2CC61BC825EF884800CA6E5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Xdebug Helper Extension";
+			productName = "Xdebug Helper Extension";
+			productReference = 2CC61BCA25EF884800CA6E5C /* Xdebug Helper Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CC61BB025EF884300CA6E5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					2CC61BB725EF884300CA6E5C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					2CC61BC925EF884800CA6E5C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 2CC61BB325EF884300CA6E5C /* Build configuration list for PBXProject "Xdebug Helper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CC61BAF25EF884300CA6E5C;
+			productRefGroup = 2CC61BB925EF884300CA6E5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CC61BB725EF884300CA6E5C /* Xdebug Helper */,
+				2CC61BC925EF884800CA6E5C /* Xdebug Helper Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CC61BB625EF884300CA6E5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC61BC425EF884800CA6E5C /* Assets.xcassets in Resources */,
+				2CC61BC025EF884300CA6E5C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC61BC825EF884800CA6E5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC61BDC25EF884800CA6E5C /* background.js in Resources */,
+				2CC61BE225EF884800CA6E5C /* popup.css in Resources */,
+				2CC61BE025EF884800CA6E5C /* popup.html in Resources */,
+				2CC61BD825EF884800CA6E5C /* images in Resources */,
+				2CC61BDA25EF884800CA6E5C /* manifest.json in Resources */,
+				2CC61BD625EF884800CA6E5C /* _locales in Resources */,
+				2CC61BDE25EF884800CA6E5C /* content.js in Resources */,
+				2CC61BE425EF884800CA6E5C /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CC61BB425EF884300CA6E5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC61BC225EF884300CA6E5C /* ViewController.swift in Sources */,
+				2CC61BBD25EF884300CA6E5C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC61BC625EF884800CA6E5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC61BD325EF884800CA6E5C /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CC61BCD25EF884800CA6E5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CC61BC925EF884800CA6E5C /* Xdebug Helper Extension */;
+			targetProxy = 2CC61BCC25EF884800CA6E5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CC61BBE25EF884300CA6E5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CC61BBF25EF884300CA6E5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CC61BE725EF884800CA6E5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CC61BE825EF884800CA6E5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2CC61BEA25EF884800CA6E5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Xdebug Helper Extension/Xdebug_Helper_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XF3L5G9C7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Xdebug Helper Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.qkdreyer.Xdebug-Helper.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2CC61BEB25EF884800CA6E5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Xdebug Helper Extension/Xdebug_Helper_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9XF3L5G9C7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Xdebug Helper Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.qkdreyer.Xdebug-Helper.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2CC61BEE25EF884800CA6E5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Xdebug Helper/Xdebug_Helper.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9XF3L5G9C7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Xdebug Helper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.qkdreyer.Xdebug-Helper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2CC61BEF25EF884800CA6E5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Xdebug Helper/Xdebug_Helper.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9XF3L5G9C7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Xdebug Helper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "fr.qkdreyer.Xdebug-Helper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CC61BB325EF884300CA6E5C /* Build configuration list for PBXProject "Xdebug Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CC61BE725EF884800CA6E5C /* Debug */,
+				2CC61BE825EF884800CA6E5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CC61BE925EF884800CA6E5C /* Build configuration list for PBXNativeTarget "Xdebug Helper Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CC61BEA25EF884800CA6E5C /* Debug */,
+				2CC61BEB25EF884800CA6E5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CC61BED25EF884800CA6E5C /* Build configuration list for PBXNativeTarget "Xdebug Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CC61BEE25EF884800CA6E5C /* Debug */,
+				2CC61BEF25EF884800CA6E5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CC61BB025EF884300CA6E5C /* Project object */;
+}
